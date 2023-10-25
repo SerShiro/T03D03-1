@@ -1,5 +1,7 @@
 #include <stdio.h>
 
-void main() {
-    printf("Hello, AI!");
+int main() {
+    printf("Hello, AI!\n");
+    return 0;
 }
+
