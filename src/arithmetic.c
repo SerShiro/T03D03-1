@@ -1,12 +1,16 @@
 #include <stdio.h>
 
-int sum(int a, int b);
+int num1, num2;
+int main() {
+    if((scanf("%d%d", &num1, &num2) == 2)) {
+        if (num2 == 0) {
+            printf("%d %d %d n/a\n", num1+num2, num1-num2, num1*num2);
+        } else {
+            printf("%d %d %d %d\n", num1+num2, num1-num2, num1*num2, num1/num2);
+        }
+    } else {
+        printf("n/a\n");
+    }
 
-int main()
-{
     return 0;
-}
-
-int sum(int a, int b){
-    return (2 * a * b) / (a - b);
 }
