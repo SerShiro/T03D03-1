@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+
+const E = 0.000001;
  
 double fun();
  
@@ -7,8 +9,8 @@ int main() {
     double res = fun();
   
     // CHANGE THIS IF - AI
-    if (res == 0)
-       printf("OK!");
+    if (round(res) == E)
+       printf("OK!\n");
  
     return 0;
 }
