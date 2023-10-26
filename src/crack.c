@@ -4,11 +4,11 @@ int main() {
     float x,y;
     if (scanf("%f%f", &x, &y) == 2) {
         if (x*x + y*y < 25) {
-            printf("GOTCHA\n");
+            printf("GOTCHA");
         } else {
-            printf("MISS\n");
+            printf("MISS");
         }
     } else {
-        printf("n/a\n");
+        printf("n/a");
     }
 }

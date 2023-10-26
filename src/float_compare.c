@@ -10,7 +10,7 @@ int main() {
   
     // CHANGE THIS IF - AI
     if (round(res) == E)
-       printf("OK!\n");
+       printf("OK!");
  
     return 0;
 }
